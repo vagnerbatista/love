@@ -39,3 +39,22 @@ export const ButtonWrapper = styled("div")`
     margin-left: 20px;
   }
 `;
+
+export const ServiceWrapper = styled("div")`
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+`;
+
+export const MinTitle = styled("h6")`
+  font-size: 22px;
+  line-height: 1rem;
+  padding: 0.5rem 0;
+  text-transform: uppercase;
+  color: #89004f;
+  font-family: "Motiva Sans Light", sans-serif;
+`;
+
+export const MinPara = styled("p")`
+  font-size: 27px;
+`;
